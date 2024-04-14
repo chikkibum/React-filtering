@@ -1,0 +1,39 @@
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root {
+  font-family: gilroy, sans-serif;
+}
+
+body {
+  background: white
+}
+
+li{
+  list-style: none;
+  cursor: pointer;
+  position: relative;
+}
+
+li:hover::before{
+  position: inherit;
+  content: '';
+  height: 4px;
+  width: 100%;
+  background: #2a68ff;
+  right: 0;
+  color: #2a68ff;
+}
+
+.icon{
+  cursor: pointer;
+}
+
+.card{
+  background: #000;
+}
+
